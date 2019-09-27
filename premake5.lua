@@ -7,8 +7,7 @@ project "glad"
 	objdir (IntermediateOutputDirectory)
 
     includedirs {
-        "include/glad/glad.h",
-        "include/KHR/khrplatform.h"
+        "include"
     }
 
 	files {
