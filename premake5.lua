@@ -6,6 +6,10 @@ project "glad"
 	targetdir (BinaryOutputDirectory)
 	objdir (IntermediateOutputDirectory)
 
+    includedirs {
+        "include/**.h"
+    }
+
 	files {
         "premake5.lua",
         
