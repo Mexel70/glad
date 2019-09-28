@@ -14,3 +14,7 @@
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+
+# Makefiles
+
+Makefile
