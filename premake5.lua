@@ -21,7 +21,10 @@ project "glad"
         systemversion "latest"
 
     filter "system:linux"
-        systemversion "latest"
+		systemversion "latest"
+		
+	filter "system:macos"
+		systemversion "latest"
 
 
 	filter "configurations:Debug"
