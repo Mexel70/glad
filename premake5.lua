@@ -3,6 +3,8 @@ project "glad"
     language "C"
 
 	targetname ("%{wks.name}-%{prj.name}")
+	targetprefix ("")
+
 	targetdir (BinaryOutputDirectory)
 	objdir (IntermediateOutputDirectory)
 
